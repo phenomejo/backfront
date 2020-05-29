@@ -4,6 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
+    "start": "npm run start --prefix backend",
     "backend": "npm run dev --prefix backend",
     "frontend": "npm run start --prefix frontend",
     "con": "concurrently \"yarn backend\" \"yarn frontend\"",
