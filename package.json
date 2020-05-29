@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "engines": {
+    "node": ">=10.5.x",
+    "npm": ">=6.4.x",
+    "yarn": ">=1.13.x"
+  },
   "scripts": {
     "start": "npm run start --prefix backend",
     "backend": "npm run dev --prefix backend",
